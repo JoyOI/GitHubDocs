@@ -228,8 +228,8 @@ body, html {
     width: 340px;
     height: 100%;
     position: absolute;
-    background: rgb(130,193,251);
-    background: linear-gradient(to bottom, rgb(130,193,251) 0%, rgb(101,171,246) 100%);
+    background: #314357;
+    background: linear-gradient(to bottom, #314357 0%, #789dbd 100%);
     overflow-y: hidden;
     overflow-x: hidden;
     z-index: 2;
@@ -256,13 +256,13 @@ body, html {
     margin-left: -20px;
 }
 
-.nav-list a.active {
-    color: #fff!important;
-    background: rgb(101,171,246);
-    background: linear-gradient(to bottom, rgb(130,193,251) 0%, rgb(101,171,246) 100%);
-    border-radius: 8px;
-    font-weight: bold;
-}
+    .nav-list a.active {
+        color: #fff !important;
+        background: #314357;
+        background: linear-gradient(to bottom, #314357 0%, #789dbd 100%);
+        border-radius: 8px;
+        font-weight: bold;
+    }
 
 .nav-list a, .nav-list a:visited {
     display: block;
